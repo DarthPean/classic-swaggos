@@ -70,9 +70,8 @@ function Index() {
     <section className="no_side_space mp_up">
       <span className="section_title">Meet the Swaggos</span>
       <span className="section_text txt2">
-        The price of each Classic Swaggo NFT card is 0.05 ETC, they are
-        distributed on the Ethereum Classic network, and there is a total of
-        10,000 cards.
+        The price of each Classic Swaggo NFT card is 2 ETC, they are distributed
+        on the Ethereum Classic network, and there is a total of 10,000 cards.
       </span>
       <br />
       <br />

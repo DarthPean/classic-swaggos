@@ -16,8 +16,8 @@ function Traits() {
         </li>
         <li>Own a NFT that will forever be on the ETC blockchain</li>
         <li>
-          We are working woth a new contract auditing and building firm called
-          Soteria to unsure that ClassicSwaggos smart contracts is safe and
+          We are working with a new contract auditing and building firm called
+          Soteria to ensure that Classic Swaggos smart contracts is safe and
           reliable, with no possiblities for exploits.
         </li>
         <br />
