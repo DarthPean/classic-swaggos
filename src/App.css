@@ -741,7 +741,7 @@ footer {
 }
 
 .swaggo_name {
-  color: #59fe84;
+  color: #ffeb3b;
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0;
@@ -749,7 +749,7 @@ footer {
 
 .swaggo_rank {
   margin: 0;
-  color: #ffeb3b;
+  color: #59fe84;
   font-size: 16px;
 }
 

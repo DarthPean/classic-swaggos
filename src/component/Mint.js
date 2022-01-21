@@ -80,12 +80,18 @@ function Mint(props) {
       <span className="stauts">{props.status}</span>
       <br />
       <br />
-      <a
-        onClick={props.mint}
-        className="nav_link button_type free_button alternate"
-      >
-        {props.loading === true ? <span>Loading.....</span> : <span>Mint</span>}
-      </a>
+      {supply === 1000 ? null : (
+        <a
+          onClick={props.mint}
+          className="nav_link button_type free_button alternate"
+        >
+          {props.loading === true ? (
+            <span>Loading.....</span>
+          ) : (
+            <span>Mint</span>
+          )}
+        </a>
+      )}
       <br />
       <br />
       <span className="warning">
