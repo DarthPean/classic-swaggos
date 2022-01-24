@@ -30,6 +30,7 @@ function App() {
     "0x6F2752bCF04aD3Bd569F8523C146701088dB8b2A",
     "0x4FFC3884669E442e5d2F687B2C70504D942ba129",
     "0xEaEA403F57CF1d143258AA5f30c53c313dB0bb14",
+    "0x7013dE209b3021177016B53f652C1260352274ea",
     "0x6C1bB12D45851E34e63D3aEc1367702A2A01eF9e",
     "0x620087aa7d016dA502Bed5841B71aee3C4887AC6",
     "0x7b731D3E1B4C6D71925833876af25fdD5C618191",
@@ -245,21 +246,27 @@ function App() {
     addWalletListener();
   }, []);
 
+  function inArray(needle, haystack) {
+    var length = haystack.length;
+    for (var i = 0; i < length; i++) {
+      if (haystack[i].toUpperCase() === needle.toUpperCase()) return true;
+    }
+    return false;
+  }
+  
+
   totalSupply().then((data) => {
     setSupply(data);
+    if(inArray(walletAddress, wishList) === true) {
+      setPrice(1);
+    }
   });
-
-  // setTimeout(() => {
-  //   checkConnection();
-  // }, 2000);
-
   function addWalletListener() {
     if (window.ethereum) {
       window.ethereum.on("accountsChanged", async (accounts) => {
         if (accounts.length > 0) {
           setWallet(accounts[0]);
-
-          if (wishList.includes(accounts[0]) === true) {
+          if(inArray(walletAddress, wishList) === true) {
             setPrice(1);
           }
           setStatus("how many? ☝️");

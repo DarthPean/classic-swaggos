@@ -80,11 +80,14 @@ function Nav() {
           </Link>
         </div>
         {walletAddress.length > 0 ? (
-          <a className="nav_link button_type" onClick={handleconnectWallet}>
-            {String(walletAddress).substring(0, 6) +
-              "..." +
-              String(walletAddress).substring(38)}
-          </a>
+          // <a className="nav_link button_type" onClick={handleconnectWallet}>
+          //   {String(walletAddress).substring(0, 6) +
+          //     "..." +
+          //     String(walletAddress).substring(38)}
+          // </a>
+          <Link to="wallet" className="nav_link button_type">
+            MY WALLET
+          </Link>
         ) : (
           <a className="nav_link button_type" onClick={handleconnectWallet}>
             CONNECT WALLET

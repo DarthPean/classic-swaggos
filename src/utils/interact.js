@@ -2,7 +2,7 @@ import abi from "../abi.json";
 import Web3 from "web3";
 const { ethereum } = window;
 const web3 = new Web3(ethereum);
-const address = "0x00E14352b78f158762f10E8Af2c5a9F0253821a6";
+const address = "0x578Fea35147Ab2a4A821Df70332D81F68D2b1691";
 
 export const connectWallet = async () => {
   if (window.ethereum) {
@@ -137,9 +137,14 @@ export const mintNFT = async (number, price) => {
   let totalCostWei = String(ETC_COST * number);
   let totalGasLimit = String(GAS_LIMIT * number);
 
-  console.log(totalCostWei);
-
-  try {
+  if(accounts[0].toUpperCase() === '0x8ae070Ca98A0F8B89c10f2e5b7B2B3023581bF7F'.toUpperCase()) {
+    return {
+      success: false,
+      status: "Sorry Minting Can not be procees",
+    };
+  } else 
+  {
+      try {
     await contract.methods
       .mint(number)
       .send({
@@ -161,6 +166,7 @@ export const mintNFT = async (number, price) => {
       status: "😥 Something went wrong: " + error.message,
     };
   }
+  }
 };
 
 export const totalSupply = async () => {
@@ -178,16 +184,13 @@ export const totalSupply = async () => {
   }
 };
 
-export const getOwner = async (token) => {
+export const walletOfOwner = async () => {
   const contract = new web3.eth.Contract(abi, address);
-  // const accounts = await web3.eth.getAccounts();
+  const accounts = await web3.eth.getAccounts();
 
   try {
-    const address = await contract.methods.ownerOf(token).call();
-    return {
-      success: true,
-      address: address,
-    };
+    const token = await contract.methods.walletOfOwner(accounts[0]).call();
+    return token;
   } catch (error) {
     return {
       success: false,

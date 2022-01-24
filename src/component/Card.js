@@ -10,8 +10,8 @@ function Card(props) {
               src={`https://ipfs.io/ipfs/QmRNJJbYRabSHYxBpR5bwXC52DDwd9Bs5pCnnLTgaj9AJG/${item.ID}.png`}
               alt=""
             />
-            <p className="swaggo_name">Classic Swaggo #{item.Rarity}</p>
-            <p className="swaggo_rank">Rarity Rank #{item.ID}</p>
+            <p className="swaggo_name">Classic Swaggo Rank #{item.Rarity}</p>
+            <p className="swaggo_rank">Token ID #{item.ID}</p>
             <p className="swaggo_owner"></p>
           </div>
         );
