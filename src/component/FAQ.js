@@ -29,7 +29,7 @@ function FAQ() {
             How much will it cost to mint Classic Swaggos?
           </span>
           <span className="faq_content">
-            It will cost 3 Ethereum Classic to mint each of 10,000 Classic
+            It will cost 2 Ethereum Classic to mint each of 10,000 Classic
             Swaggos available.
           </span>
         </div>
@@ -46,9 +46,7 @@ function FAQ() {
         <div className="faq_item">
           <span className="faq_title">Secondary Market? </span>
           <span className="faq_content">
-            We plan on releasing a secondary market unless the community wants
-            to list them on the nerw marketplace’s coming out for Ethereum
-            Classic.
+            We plan on releasing a secondary market
           </span>
         </div>
       </div>

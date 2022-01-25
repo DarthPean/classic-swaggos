@@ -126,46 +126,48 @@ export const mintNFT = async (number, price) => {
   const contract = new web3.eth.Contract(abi, address);
   const accounts = await web3.eth.getAccounts();
 
-  let ETC_COST;
-  if (price === 1) {
-    ETC_COST = 1000000000000000000;
-  } else {
-    ETC_COST = 2000000000000000000;
-  }
+  let ETC_COST = 2000000000000000000;
+  // if (price === 1) {
+  //   ETC_COST = 1000000000000000000;
+  // } else {
+  //   ETC_COST = 2000000000000000000;
+  // }
 
   let GAS_LIMIT = 285000;
   let totalCostWei = String(ETC_COST * number);
   let totalGasLimit = String(GAS_LIMIT * number);
 
-  if(accounts[0].toUpperCase() === '0x8ae070Ca98A0F8B89c10f2e5b7B2B3023581bF7F'.toUpperCase()) {
+  if (
+    accounts[0].toUpperCase() ===
+    "0x8ae070Ca98A0F8B89c10f2e5b7B2B3023581bF7F".toUpperCase()
+  ) {
     return {
       success: false,
-      status: "Sorry Minting Can not be procees",
+      status: "Sorry Minting Can not be processed",
     };
-  } else 
-  {
-      try {
-    await contract.methods
-      .mint(number)
-      .send({
-        from: accounts[0],
-        gasLimit: String(totalGasLimit),
-        to: address,
-        value: totalCostWei,
-      })
-      .then(function (result) {
-        console.log(result);
-      });
-    return {
-      success: true,
-      status: "🙌 NFT Successfully Minted",
-    };
-  } catch (error) {
-    return {
-      success: false,
-      status: "😥 Something went wrong: " + error.message,
-    };
-  }
+  } else {
+    try {
+      await contract.methods
+        .mint(number)
+        .send({
+          from: accounts[0],
+          gasLimit: String(totalGasLimit),
+          to: address,
+          value: totalCostWei,
+        })
+        .then(function (result) {
+          console.log(result);
+        });
+      return {
+        success: true,
+        status: "🙌 NFT Successfully Minted",
+      };
+    } catch (error) {
+      return {
+        success: false,
+        status: "😥 Something went wrong: " + error.message,
+      };
+    }
   }
 };
 

@@ -1,0 +1,112 @@
+[debug] [2022-01-25T15:54:53.662Z] ----------------------------------------------------------------------
+[debug] [2022-01-25T15:54:53.666Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olaoluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-01-25T15:54:53.666Z] CLI Version:   10.0.1
+[debug] [2022-01-25T15:54:53.666Z] Platform:      win32
+[debug] [2022-01-25T15:54:53.666Z] Node Version:  v14.17.3
+[debug] [2022-01-25T15:54:53.720Z] Time:          Tue Jan 25 2022 16:54:53 GMT+0100 (West Africa Standard Time)
+[debug] [2022-01-25T15:54:53.720Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-25T15:54:53.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-25T15:54:53.885Z] > authorizing via signed-in user (olaoluwajoshua5418@gmail.com)
+[debug] [2022-01-25T15:54:53.885Z] [iam] checking project classic-swaggo for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-01-25T15:54:53.888Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-25T15:54:53.888Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-25T15:54:54.769Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 25 Jan 2022 15:54:54 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:54:54.866Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/classic-swaggo:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-01-25T15:54:56.663Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 25 Jan 2022 15:54:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1120","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:54:56.666Z] > refreshing access token with scopes: []
+[debug] [2022-01-25T15:54:56.666Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-25T15:54:57.205Z] <<< HTTP RESPONSE 200 {"date":"Tue, 25 Jan 2022 15:54:56 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:54:57.269Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/classic-swaggo [none]
+[debug] [2022-01-25T15:54:58.657Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/classic-swaggo 200
+[debug] [2022-01-25T15:54:58.657Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/classic-swaggo {"projectId":"classic-swaggo","projectNumber":"756585136186","displayName":"classic-swaggo","name":"projects/classic-swaggo","resources":{"hostingSite":"classic-swaggo"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'classic-swaggo'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-01-25T15:54:58.669Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-25T15:54:58.669Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-25T15:54:59.337Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Tue, 25 Jan 2022 15:54:58 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:54:59.379Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-01-25T15:55:02.204Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 25 Jan 2022 15:55:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[classic-swaggo]: beginning deploy... 
+[info] i  hosting[classic-swaggo]: found 46 files in build 
+[debug] [2022-01-25T15:55:03.534Z] > refreshing access token with scopes: []
+[debug] [2022-01-25T15:55:03.534Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-25T15:55:03.536Z] [hosting] hash cache [YnVpbGQ] stored for 46 files
+[debug] [2022-01-25T15:55:03.536Z] [hosting][hash queue][FINAL] {"max":1161,"min":3,"avg":40.521739130434774,"active":0,"complete":46,"success":46,"errored":0,"retried":0,"total":46,"elapsed":1300}
+[debug] [2022-01-25T15:55:04.236Z] <<< HTTP RESPONSE 200 {"date":"Tue, 25 Jan 2022 15:55:03 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:55:04.321Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/versions/711ca5f027def67f:populateFiles [none]
+[debug] [2022-01-25T15:55:04.322Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/versions/711ca5f027def67f:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/no-image-available.jpg":"c5b21c5b8017f14b4817589138360f4f1a366ec396dc297e3807dbfbd01b2d6e","/profile.jpg":"f244335a0d36715675c19cfbdb543f08566f103ad4daa0ed1965a52672c84cb0","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/sprite.svg":"e457f6fcf7480a6c605647932288887f632749ea8de0d5ef554df19689f57bb8","/img/loading.svg":"3a77f01f48c28d267af14a843e0479d84e9563815ff1c669e1449030188e0064","/img/logo.png":"f897c0c268831f4c04228f456db86b5a3a95f806a465de8aa8591c3f05b41eb0","/img/m1.svg":"8d2f6759d4a6683b4b1dd7474e23d902bcd13af7917a54d00268f90f2de1e035","/img/m10.svg":"d2b8b72d814e7d01b95733d5fd5ee1cfb87426681fd1528a30b95db57652a692","/img/m2.svg":"620f6dd8a9f99b21a968e7f291b3e2ab4f41046db212b9a44d830da5931465fc","/img/m3.svg":"95baab83d170daf0a1d5fed567f4657efa0e05fd2e8ea7e7425faec3e341faf3","/img/m4.svg":"b6f113c9e083f8c35f8818e284e664e4cb4e34a23dbb08c4e91fe72d098ddf56","/img/m5.svg":"226d1b9ea9360a5b6eb058ba25ee594e99e985b8c506b9262d461a8f59f6d82a","/img/m6.svg":"3b3572b5fd49ca99f8bad9a63a820c6861a65e42b16f2523c3fc1f4e5cb16a0a","/img/m7.svg":"0a6bb59b7dd0649020ae4865273c36dc6d7dec3cae0d9435d555ccba58e81192","/img/m8.svg":"2956b6e4ab26279fa93a1797ea832d85ec3f8fe9e3fe959c28319dc6873e4b15","/img/m9.svg":"9fc795682b360cd82c9e254ebc64adaebb0d956796c6220a320ea6bb6794afa9","/img/mint_left.svg":"10453d70f109086052f13a896d670c40c337c3a5af6d53d129d87b2e5e3d07cf","/img/mint_right.svg":"8a6320c20eba74d24ad558fa8d017ae789fad4f25dfe15b2f6702700fdecae39","/img/nfts.svg":"1e128a62c0de72b411258bf4551a0962115bb0ce509317a95887df65fe490bfa","/img/roadmap.svg":"df027b709bf38af0996f2bdcb2cd7291fc522219c2d62103575d162385784184","/img/story.svg":"9557ca47917ef04f65d9aa68d3d5651ed2a6433f5cca3b0775ef89e969deb770","/img/trait1.svg":"86e55f5452bc41de0ef9aff56702aab9f7306ea180ce2c5698ba5a1137146acf","/img/trait2.svg":"2eb65b65026086d1a9d64285fd27568c9b0ba24ead17c4d742a57cacd4fc44a1","/img/trait3.svg":"6f3b96f069db3cbaea3842b86a530834d2ac761b00b8c1e18c10651a23db364a","/img/traits.svg":"53c57e0632e848ff3d0283a62fef87d587e26e674d361e3a124f47866e40085f","/asset-manifest.json":"14421d25f9cf9176d39b4ef2d92228ca34f92d50bbd7d6755899741b15d85ffc","/index.html":"15cc5649ee489564c9167e2f9484d815541f681413bc8a24211132e9b97f7cc5","/static/js/2.bc2e7196.chunk.js.LICENSE.txt":"e01ea4ee2367a4c6fbe3718f634446bc9cb5cff952927d9e1554124f41ba6a32","/static/css/main.5c5c7745.chunk.css":"b5700810d66ecf3657a3b00626953e5ab6d9bfe4afcb4e1a905389add5c5d0fd","/static/js/3.e934eb3c.chunk.js":"8199f398aa71af5548481bbec4d6fc2296e55910f581df63e89ecadafa9e5ebb","/static/js/3.e934eb3c.chunk.js.map":"88dc0aa8222f24fb22ff88fb3c72a3bc192d5683a1e992f8de87948236a4f82f","/static/css/main.5c5c7745.chunk.css.map":"5693fc35f7471d0acd86308c3c6a55a1eec5fe2d8f6cb43c85cd795be87e0a4b","/static/js/runtime-main.e1f4b1fe.js":"88a676fa75adbc5bcc9fc0c7294be9ae998721e88ad34b701bd8f1b5042d8cf0","/static/js/runtime-main.e1f4b1fe.js.map":"d9bad3ac52c30acf98ea7862e4a137119eb7a7273c0cf03369f84b2f0f976046","/static/media/edged_button.cbe1e216.svg":"3eaa23630b8c5e32bc36b4b2d4101446182f5094d6318118c95901d146ef9557","/static/media/faq_bg.3fc10f5a.svg":"3ff3099adfa5585a2690c0a924fddf6a1827628b556717d8abc83b4d5d6f1798","/static/media/Menu_Close.c35365be.svg":"fac730ad7bc50a652093470e49292283fe71c939ba8b5cf62e9ca344131ed5de","/static/media/Menu.98a1c6ea.svg":"9592163cfaa756e852914058af3030c1d42665b6d4929c2614c9dff458606929","/static/js/main.de820f60.chunk.js.map":"3232797d29e138baa95781441836a894cb56e03d7730f3c647262e5d7c64b69b","/static/js/main.de820f60.chunk.js":"d6afe465682ca7fde9118a52bd16a0817bf4e294e2f1179112d185387bee876d","/static/js/2.bc2e7196.chunk.js":"bb74b69f9f5fbb215ebe04171b2f2fd0f5ec4e242b44e2cfee1a94ab1aabeb4c","/static/js/2.bc2e7196.chunk.js.map":"b20e9cd66d63baf12292736373980d276ef143348f6c51fa3d265aed3b03275d"}}
+[debug] [2022-01-25T15:55:06.376Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/versions/711ca5f027def67f:populateFiles 200
+[debug] [2022-01-25T15:55:06.376Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/versions/711ca5f027def67f:populateFiles {"uploadRequiredHashes":["d6afe465682ca7fde9118a52bd16a0817bf4e294e2f1179112d185387bee876d","3232797d29e138baa95781441836a894cb56e03d7730f3c647262e5d7c64b69b","14421d25f9cf9176d39b4ef2d92228ca34f92d50bbd7d6755899741b15d85ffc","15cc5649ee489564c9167e2f9484d815541f681413bc8a24211132e9b97f7cc5"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files"}
+[debug] [2022-01-25T15:55:06.380Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/d6afe465682ca7fde9118a52bd16a0817bf4e294e2f1179112d185387bee876d [none]
+[debug] [2022-01-25T15:55:06.380Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/d6afe465682ca7fde9118a52bd16a0817bf4e294e2f1179112d185387bee876d [stream]
+[debug] [2022-01-25T15:55:06.382Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/3232797d29e138baa95781441836a894cb56e03d7730f3c647262e5d7c64b69b [none]
+[debug] [2022-01-25T15:55:06.382Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/3232797d29e138baa95781441836a894cb56e03d7730f3c647262e5d7c64b69b [stream]
+[debug] [2022-01-25T15:55:06.383Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/14421d25f9cf9176d39b4ef2d92228ca34f92d50bbd7d6755899741b15d85ffc [none]
+[debug] [2022-01-25T15:55:06.384Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/14421d25f9cf9176d39b4ef2d92228ca34f92d50bbd7d6755899741b15d85ffc [stream]
+[debug] [2022-01-25T15:55:06.385Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/15cc5649ee489564c9167e2f9484d815541f681413bc8a24211132e9b97f7cc5 [none]
+[debug] [2022-01-25T15:55:06.385Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/15cc5649ee489564c9167e2f9484d815541f681413bc8a24211132e9b97f7cc5 [stream]
+[debug] [2022-01-25T15:55:06.386Z] [hosting][populate queue][FINAL] {"max":2846,"min":2846,"avg":2846,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2852}
+[debug] [2022-01-25T15:55:06.387Z] [hosting] uploads queued: 4
+[debug] [2022-01-25T15:55:08.691Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/15cc5649ee489564c9167e2f9484d815541f681413bc8a24211132e9b97f7cc5 200
+[debug] [2022-01-25T15:55:08.692Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/15cc5649ee489564c9167e2f9484d815541f681413bc8a24211132e9b97f7cc5 [stream]
+[debug] [2022-01-25T15:55:08.798Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/3232797d29e138baa95781441836a894cb56e03d7730f3c647262e5d7c64b69b 200
+[debug] [2022-01-25T15:55:08.798Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/3232797d29e138baa95781441836a894cb56e03d7730f3c647262e5d7c64b69b [stream]
+[debug] [2022-01-25T15:55:09.206Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/d6afe465682ca7fde9118a52bd16a0817bf4e294e2f1179112d185387bee876d 200
+[debug] [2022-01-25T15:55:09.206Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/d6afe465682ca7fde9118a52bd16a0817bf4e294e2f1179112d185387bee876d [stream]
+[debug] [2022-01-25T15:55:09.295Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/14421d25f9cf9176d39b4ef2d92228ca34f92d50bbd7d6755899741b15d85ffc 200
+[debug] [2022-01-25T15:55:09.296Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/classic-swaggo/versions/711ca5f027def67f/files/14421d25f9cf9176d39b4ef2d92228ca34f92d50bbd7d6755899741b15d85ffc [stream]
+[debug] [2022-01-25T15:55:09.296Z] [hosting][upload queue][FINAL] {"max":2917,"min":2313,"avg":2620,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":2919}
+[info] +  hosting[classic-swaggo]: file upload complete 
+[debug] [2022-01-25T15:55:09.299Z] [hosting] deploy completed after 7093ms
+[debug] [2022-01-25T15:55:09.303Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "classic-swaggo"
+    },
+    "site": "classic-swaggo",
+    "version": "sites/classic-swaggo/versions/711ca5f027def67f"
+  }
+]
+[info] i  hosting[classic-swaggo]: finalizing version... 
+[debug] [2022-01-25T15:55:09.304Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-25T15:55:09.304Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-25T15:55:17.133Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Tue, 25 Jan 2022 15:55:16 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:55:17.566Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/versions/711ca5f027def67f?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2022-01-25T15:55:22.697Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 25 Jan 2022 15:55:21 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-25T15:55:22.698Z] [hosting] finalized version for classic-swaggo: {"name":"sites/classic-swaggo/versions/711ca5f027def67f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-01-25T15:55:00.837749Z","createUser":{"email":"olaoluwajoshua5418@gmail.com"},"finalizeTime":"2022-01-25T15:55:21.930632Z","finalizeUser":{"email":"olaoluwajoshua5418@gmail.com"}}
+[info] +  hosting[classic-swaggo]: version finalized 
+[info] i  hosting[classic-swaggo]: releasing new version... 
+[debug] [2022-01-25T15:55:22.702Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/classic-swaggo/releases?version_name=sites/classic-swaggo/versions/711ca5f027def67f  
+ {"message":null}
+[debug] [2022-01-25T15:55:39.575Z] Error: socket hang up
+    at connResetException (internal/errors.js:628:14)
+    at TLSSocket.socketOnEnd (_http_client.js:499:23)
+    at TLSSocket.emit (events.js:387:35)
+    at TLSSocket.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: Server Error. socket hang up
