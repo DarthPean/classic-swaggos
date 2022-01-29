@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/classic-swaggos/static/css/main.cd2e4256.chunk.css",
-    "main.js": "/classic-swaggos/static/js/main.bbbc0e44.chunk.js",
-    "main.js.map": "/classic-swaggos/static/js/main.bbbc0e44.chunk.js.map",
-    "runtime-main.js": "/classic-swaggos/static/js/runtime-main.8f90a182.js",
-    "runtime-main.js.map": "/classic-swaggos/static/js/runtime-main.8f90a182.js.map",
-    "static/js/2.b3f17488.chunk.js": "/classic-swaggos/static/js/2.b3f17488.chunk.js",
-    "static/js/2.b3f17488.chunk.js.map": "/classic-swaggos/static/js/2.b3f17488.chunk.js.map",
-    "static/js/3.e934eb3c.chunk.js": "/classic-swaggos/static/js/3.e934eb3c.chunk.js",
-    "static/js/3.e934eb3c.chunk.js.map": "/classic-swaggos/static/js/3.e934eb3c.chunk.js.map",
+    "main.css": "/classic-swaggos/static/css/main.7bacdeac.chunk.css",
+    "main.js": "/classic-swaggos/static/js/main.875541fb.chunk.js",
+    "main.js.map": "/classic-swaggos/static/js/main.875541fb.chunk.js.map",
+    "runtime-main.js": "/classic-swaggos/static/js/runtime-main.d8c38690.js",
+    "runtime-main.js.map": "/classic-swaggos/static/js/runtime-main.d8c38690.js.map",
+    "static/js/2.bdff45d9.chunk.js": "/classic-swaggos/static/js/2.bdff45d9.chunk.js",
+    "static/js/2.bdff45d9.chunk.js.map": "/classic-swaggos/static/js/2.bdff45d9.chunk.js.map",
+    "static/js/3.0a86f385.chunk.js": "/classic-swaggos/static/js/3.0a86f385.chunk.js",
+    "static/js/3.0a86f385.chunk.js.map": "/classic-swaggos/static/js/3.0a86f385.chunk.js.map",
     "index.html": "/classic-swaggos/index.html",
-    "static/css/main.cd2e4256.chunk.css.map": "/classic-swaggos/static/css/main.cd2e4256.chunk.css.map",
-    "static/js/2.b3f17488.chunk.js.LICENSE.txt": "/classic-swaggos/static/js/2.b3f17488.chunk.js.LICENSE.txt",
+    "static/css/main.7bacdeac.chunk.css.map": "/classic-swaggos/static/css/main.7bacdeac.chunk.css.map",
+    "static/js/2.bdff45d9.chunk.js.LICENSE.txt": "/classic-swaggos/static/js/2.bdff45d9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/classic-swaggos/static/media/faq_bg.3fc10f5a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f90a182.js",
-    "static/js/2.b3f17488.chunk.js",
-    "static/css/main.cd2e4256.chunk.css",
-    "static/js/main.bbbc0e44.chunk.js"
+    "static/js/runtime-main.d8c38690.js",
+    "static/js/2.bdff45d9.chunk.js",
+    "static/css/main.7bacdeac.chunk.css",
+    "static/js/main.875541fb.chunk.js"
   ]
 }
