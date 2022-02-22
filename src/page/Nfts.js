@@ -77,7 +77,7 @@ function Index() {
       <br />
       <br />
       <div className="sort">
-        <span className="sort_item active" onClick={() => HighestTokend()}>
+        <span className="sort_item" onClick={() => HighestTokend()}>
           All
         </span>
         <span className="sort_item" data-sort="a" onClick={() => lowetTokend()}>
@@ -91,10 +91,10 @@ function Index() {
           Highest Token Id
         </span>
         <span className="sort_item" data-sort="c" onClick={() => lowetRarity()}>
-          Low Rarity
+         Most Rarity
         </span>
         <span className="sort_item" data-sort="d" onClick={() => HighRarity()}>
-          Top Rarity
+        Least Rarity
         </span>
       </div>
       <Card NFTsList={currentPost} currentPage={currentPage} />

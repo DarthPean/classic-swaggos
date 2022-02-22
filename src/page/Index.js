@@ -265,9 +265,7 @@ function App() {
       window.ethereum.on("accountsChanged", async (accounts) => {
         if (accounts.length > 0) {
           setWallet(accounts[0]);
-          // if(inArray(walletAddress, wishList) === true) {
-          //   setPrice(1);
-          // }
+          
           setStatus("how many? ☝️");
         } else {
           setWallet("");

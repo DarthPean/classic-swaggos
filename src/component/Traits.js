@@ -9,18 +9,13 @@ function Traits() {
       <img src="img/trait1.svg" alt="" className="traits_image" />
       <span className="section_text auto_right">
         <p className="green">Every Swaggo minter will be able to:</p>
-        <li>Sell on the Ethereum Classic Marketplace</li>
+        <li>Flip your swaggos on any the Ethereum Classic Marketplace</li>
+        
+        <li>Own an NFT that is secured by ETC blockchain</li>
         <li>
-          Be part of a project that is not just for collection but finding other
-          use cases
+          Participate in a more secure blockchain environment through Soteria Smart Contracts, our security
+          firm, to ensure your swaggos are safe!
         </li>
-        <li>Own a NFT that will forever be on the ETC blockchain</li>
-        <li>
-          We are working with a new contract auditing and building firm called
-          Soteria to ensure that Classic Swaggos smart contracts is safe and
-          reliable, with no possiblities for exploits.
-        </li>
-        <br />
         <br />
         <br />
         <br />

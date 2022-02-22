@@ -55,8 +55,9 @@ function Nav() {
   return (
     <nav>
       <div className="logo_section m-negative">
+        <a href="/">
         {/* <span className="logo_name">Classic Swaggos</span> */}
-        <img alt="" src="img/logo.png" width={200} />
+        <img alt="" src="img/logo.png" width={200} /></a>
       </div>
       <div className="nav_links_section">
         <div className="nav_links_middle">
@@ -65,9 +66,6 @@ function Nav() {
           </a>
           <a href="/#COLLECTION" className="nav_link">
             COLLECTION
-          </a>
-          <a href="/#ROADMAP" className="nav_link">
-            ROAD MAP
           </a>
           <a href="/#HELP&FAQ" className="nav_link">
             HELP &amp; FAQ

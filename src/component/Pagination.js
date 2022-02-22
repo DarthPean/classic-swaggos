@@ -6,7 +6,8 @@ const Pagination = ({ currentPage, paginate }) => {
     <ul className="pagination">
       <li>
         {/* <a onClick={() => paginate(currentPage - 1)}>Prev</a> */}
-        <a onClick={() => paginate(currentPage + 1)}>Next</a>
+        
+        <a onClick={() => paginate(currentPage + 1)}>Show More</a>
       </li>
     </ul>
   );

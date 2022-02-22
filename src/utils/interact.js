@@ -126,7 +126,7 @@ export const mintNFT = async (number, price) => {
   const contract = new web3.eth.Contract(abi, address);
   const accounts = await web3.eth.getAccounts();
 
-  let ETC_COST = 2000000000000000000;
+  let ETC_COST = 1000000000000000000;
   // if (price === 1) {
   //   ETC_COST = 1000000000000000000;
   // } else {

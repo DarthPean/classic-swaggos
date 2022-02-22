@@ -21,15 +21,15 @@ function FAQ() {
         <div className="faq_item">
           <span className="faq_title">When do Classic Swaggos launch? </span>
           <span className="faq_content">
-            We plan on launching Classic Swaggos very soon.
+            Classic Swaggos is live for minting!
           </span>
         </div>
         <div className="faq_item">
           <span className="faq_title">
-            How much will it cost to mint Classic Swaggos?
+            How much does it cost to mint a Classic Swaggos?
           </span>
           <span className="faq_content">
-            It will cost 2 Ethereum Classic to mint each of 10,000 Classic
+            It costs 2 Ethereum Classic to mint any of the 10,000 
             Swaggos available.
           </span>
         </div>
@@ -46,7 +46,7 @@ function FAQ() {
         <div className="faq_item">
           <span className="faq_title">Secondary Market? </span>
           <span className="faq_content">
-            We plan on releasing a secondary market
+            We plan on releasing a secondary marketplace, or work with an existing on you bring you a trustless and secure place to trade your swaggos!
           </span>
         </div>
       </div>

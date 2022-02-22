@@ -4,9 +4,8 @@ function Collection() {
     <section className="no_side_space" id="COLLECTION">
       <span className="section_title">Meet the Swaggos</span>
       <span className="section_text">
-        The price of each classic Swaggos NFT card is 2 ETC, they are
-        distributed on the Ethereum Classic network, and there is a total of
-        10,000 cards.
+        There is a total of
+        10,000 Classic Swaggos that will ever exist.
       </span>
       <br />
       <br />

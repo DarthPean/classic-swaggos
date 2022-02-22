@@ -43,7 +43,7 @@ function Mint(props) {
       )}
 
       <span className="section_text yellow_text">
-        {props.price} ETC + Gas fee <br /> Max 20 Swaggos per transaction
+        Current price is 1 ETC per Classic Swaggo + Gas fees <br /> Max 20 Swaggos per transaction
       </span>
       <div className="calc_section">
         <a className="nav_link button_type auto_button">
@@ -95,7 +95,7 @@ function Mint(props) {
       <br />
       <br />
       <span className="warning">
-        Please Make Sure you are on ETC Network to avoid lost of funds
+        Please ensure you are on ETC Network to avoid a loss of funds
       </span>
       <br />
       {/* <span className="underscore">View Contract</span> */}
