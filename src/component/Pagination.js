@@ -3,7 +3,7 @@ import React from "react";
 
 const Pagination = ({ currentPage, paginate }) => {
   return (
-    <ul className="pagination">
+    <ul className="pagination justify-content-center">
       <li>
         {/* <a onClick={() => paginate(currentPage - 1)}>Prev</a> */}
         

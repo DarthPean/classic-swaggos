@@ -145,6 +145,69 @@ nav {
   border: none;
 }
 
+.btn.primary {
+  color: #59fe84;
+  border: 1px solid #59fe84;
+  padding: 10px 35px;
+  cursor: pointer;
+}
+
+select.primary {
+  /* Reset Select */
+  appearance: none;
+  outline: 0;
+  border: 1px solid #59fe84;
+  box-shadow: none;
+  color: white;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  background-color: var(--darkgray);
+  cursor: pointer;
+  border-radius: 0;
+  width: 100%;
+}
+/* Remove IE arrow */
+/* select::-ms-expand {
+  display: none;
+} */
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  height: 3em;
+  margin: auto;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  color: #59fe84;
+  /* background-color: #333333; */
+  transition: 0.25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #35be59;
+}
+select option {
+  color: #ffffff;
+  background: #000000;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+select option:hover {
+  background: #333333;
+}
+
+select:focus option:checked {
+  background: #333333 linear-gradient(0deg, #333333 0%, #333333 100%);
+}
+
 .nav_link {
   text-decoration: none;
   font-weight: 600;
@@ -775,6 +838,10 @@ footer {
 
 .colored_span {
   color: #03a9f4;
+}
+
+.filter-section {
+  margin: 20px 0px 60px;
 }
 
 @media only screen and (max-width: 1110px) {
