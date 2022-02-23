@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/classic-swaggos/static/css/main.7bacdeac.chunk.css",
-    "main.js": "/classic-swaggos/static/js/main.875541fb.chunk.js",
-    "main.js.map": "/classic-swaggos/static/js/main.875541fb.chunk.js.map",
-    "runtime-main.js": "/classic-swaggos/static/js/runtime-main.d8c38690.js",
-    "runtime-main.js.map": "/classic-swaggos/static/js/runtime-main.d8c38690.js.map",
-    "static/js/2.bdff45d9.chunk.js": "/classic-swaggos/static/js/2.bdff45d9.chunk.js",
-    "static/js/2.bdff45d9.chunk.js.map": "/classic-swaggos/static/js/2.bdff45d9.chunk.js.map",
-    "static/js/3.0a86f385.chunk.js": "/classic-swaggos/static/js/3.0a86f385.chunk.js",
-    "static/js/3.0a86f385.chunk.js.map": "/classic-swaggos/static/js/3.0a86f385.chunk.js.map",
-    "index.html": "/classic-swaggos/index.html",
-    "static/css/main.7bacdeac.chunk.css.map": "/classic-swaggos/static/css/main.7bacdeac.chunk.css.map",
-    "static/js/2.bdff45d9.chunk.js.LICENSE.txt": "/classic-swaggos/static/js/2.bdff45d9.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/classic-swaggos/static/media/faq_bg.3fc10f5a.svg"
+    "main.css": "/static/css/main.eabb3172.chunk.css",
+    "main.js": "/static/js/main.f653b6b8.chunk.js",
+    "main.js.map": "/static/js/main.f653b6b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a4c27370.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a4c27370.js.map",
+    "static/css/2.4659568d.chunk.css": "/static/css/2.4659568d.chunk.css",
+    "static/js/2.952aa0d2.chunk.js": "/static/js/2.952aa0d2.chunk.js",
+    "static/js/2.952aa0d2.chunk.js.map": "/static/js/2.952aa0d2.chunk.js.map",
+    "static/js/3.62c0a1bf.chunk.js": "/static/js/3.62c0a1bf.chunk.js",
+    "static/js/3.62c0a1bf.chunk.js.map": "/static/js/3.62c0a1bf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.eabb3172.chunk.css.map": "/static/css/main.eabb3172.chunk.css.map",
+    "static/js/2.952aa0d2.chunk.js.LICENSE.txt": "/static/js/2.952aa0d2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/faq_bg.3fc10f5a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8c38690.js",
-    "static/js/2.bdff45d9.chunk.js",
-    "static/css/main.7bacdeac.chunk.css",
-    "static/js/main.875541fb.chunk.js"
+    "static/js/runtime-main.a4c27370.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.952aa0d2.chunk.js",
+    "static/css/main.eabb3172.chunk.css",
+    "static/js/main.f653b6b8.chunk.js"
   ]
 }
