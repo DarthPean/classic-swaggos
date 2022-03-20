@@ -83,7 +83,7 @@ function Nav() {
           //     "..." +
           //     String(walletAddress).substring(38)}
           // </a>
-          <Link to="wallet" className="nav_link button_type">
+          <Link id="walletname" to="wallet" className="nav_link button_type">
             MY WALLET
           </Link>
         ) : (
