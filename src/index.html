@@ -12,6 +12,7 @@
     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <link href="https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/hens.js"></script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -90,6 +91,14 @@
     };
 
     changeTrait(0);
+    setInterval(() => {
+      let addr = $("#walletname").html();
+      if (addr.indexOf("0x") != -1 && addr.indexOf("...") != -1) {
+        hens.js.getNameOfOwner(window.ethereum.selectedAddress).then(res => {
+          $("#walletname").html(res);
+        })
+      }
+    }, 1000)
   });
   </script>
 </html>
